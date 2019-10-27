@@ -4,7 +4,155 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+/* Hello TA,s i had some Problems to find a nice solution to get the box around login button and the home button, i guess i did some mistakes on the way. Looking forward for solution */
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* 1 point */
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  
+  background: linear-gradient(to bottom, rgba(28, 83, 128, 0.8) 30%, #fff 30%  );
+}
+
+/* 1point */
+h1 {
+  color: #06365f;
+}
+
+.content {
+  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+  margin-top: 100px;
+  margin-bottom: 100px;
+  height: 60vh;
+}
+
+.main-content {
+  width: 60vh;
+    
+}
+
+
+.main-content  {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.phones {
+  width: 30vh;
+  display: flex;
+  padding: 20px;
+  margin-right: 50px;
+}
+
+.logo-home  {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.instagram-logo {
+  display: flex;
+}
+
+.login-menu {
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  
+  
+}
+
+
+
+
+.login-menu  a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: bold;
+  
+}
+
+.text-box {
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 20px;
+  
+}
+
+.text-box h1, p {
+  margin: 20px;
+}
+
+#appstores {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.google-playstore {
+  margin-left: 15px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  
+  
+}
+
+
+.footer-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    height: 100px;
+    
+    
+}
+
+.footer-nav-ul {
+  display: flex;
+  flex-flow: row wrap;
+  
+}
+
+
+footer li {
+  list-style-type: none;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+footer  a {
+  text-decoration: none;
+  color: #1c5380;
+  font-weight: bold;
+}
+
+#instagram-cr {
+  color: rgba(0, 0, 0, 0.6);
 }
